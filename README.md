@@ -11,3 +11,11 @@ Box vagrant ubuntu with opencv3
 - run vagrant.
 
 - run install.sh on box vagrant.
+
+i.e:
+
+```
+vagrant box add <name-vm> <name-vm>.box 
+vagrant init <name-vm> 
+vagrant up
+```

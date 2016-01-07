@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 # - github.com/jhoonb
-
+# -------------------------------------------------------------------------
 Vagrant.configure(2) do |config|
   config.vm.box = "vivid-server-cloudimg-amd64-vagrant-disk1.box"
   # shared folders

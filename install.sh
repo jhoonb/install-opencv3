@@ -136,3 +136,8 @@ time python3 test.py
 
 # go to home folder
 cd /home/vagrant/
+
+sudo apt-get update -y && sudo apt-get upgrade -y
+
+sudo apt-get autoclean
+sudo apt-get autoremove
